@@ -15,7 +15,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 **Repository Tier:** Bronze <br>
 **Technology:** Gmail, HTML <br>
 **Category:** Email Signature Template <br>
-**Order:** 54 <br>
+**Order:** 55 <br>
 
 ## Parameters
 
