@@ -41,7 +41,8 @@ This is a simple `HTML` template for creating a Gmail signature. It is designed 
 2. Open the directory `professional` or `personal` depending on your choice
 3. Edit the `signature.html` file with your information
 4. To change your profile picture, change the current `URL` with your own `URL` in the `img` tag in `SECTION #1`.
-    - This image must be hosted on the internet. You can use [imgur](https://imgur.com/) to host your image.
+    - This image must be hosted on the internet. 
+    - For example, you can use [imgur](https://imgur.com/) or [Firebase](https://firebase.google.com/) to host your image.
 5. Open `signature.html` in any browser to see the changes
 6. Select everything on the screen and copy it to your clipboard
 7. Open your gmail account, press the settings icon and go to settings
@@ -53,12 +54,17 @@ This is a simple `HTML` template for creating a Gmail signature. It is designed 
 > [!NOTE]
 > There is a limit of 10,000 characters in Gmail Signature.
 
+> [!WARNING]
+> I've provided some images to use for your social links in the `images` folder, you must host these images on a hosting service (i.e. firebase or google drive) to allow everyone who views your signature to view these icons.
+> As mentioned above, the same goes with your avatar/profile picture and thumbnail -- which can be pointed to your GitHub profile image if you'd like.
+
 ## Resources
 
 - [Gmail](https://mail.google.com/)
 - [Gmail Signature](https://support.google.com/mail/answer/8395?co=GENIE.Platform%3DDesktop&hl=en)
 - [Gmail Signature Inspiration Repo](https://github.com/skarif2/gmail-signature)
 - [Imgur](https://imgur.com/)
+- [Firebase](https://firebase.google.com/)
 
 ## License
 
