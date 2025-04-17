@@ -31,6 +31,7 @@ This is a simple `HTML` template for creating a Gmail signature. It is designed 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
+- [Testing Your Signature](#testing-your-signature)
 - [Resources](#resources)
 - [License](#license)
 - [Credits](#credits)
@@ -38,32 +39,44 @@ This is a simple `HTML` template for creating a Gmail signature. It is designed 
 ## Getting Started
 
 1. Clone the repo
-2. Open the directory `professional` or `personal` depending on your choice
-3. Edit the `signature.html` file with your information
-4. To change your profile picture, change the current `URL` with your own `URL` in the `img` tag in `SECTION #1`.
-    - This image must be hosted on the internet. 
-    - For example, you can use [imgur](https://imgur.com/) or [Firebase](https://firebase.google.com/) to host your image.
-5. Open `signature.html` in any browser to see the changes
-6. Select everything on the screen and copy it to your clipboard
-7. Open your gmail account, press the settings icon and go to settings
-8. In the general tab, scroll down where you can see signature
-9. Click on the signature field and paste the previously copied `HTML`
-10. Scroll down and save changes that you just made
-11. Press the compose button and you will see your signature populated
+2. Edit the `signature.html` file with your information
+3. To change your profile picture, change the current `URL` with your own `URL` in the `img` tag in `SECTION #1`.
+    - This image must be hosted by you to be accessable by others on the internet. 
+    - For example, you can use [Google Drive](https://workspace.google.com/products/drive/) (with a public link), [Dropbox](https://www.dropbox.com/), [Firebase](https://firebase.google.com/), etc. to host your image.
+    - 
+4. Open `signature.html` in any browser to see the changes
+5. Select everything on the screen and copy it to your clipboard
+6. Open your Gmail account, press the settings icon and then click "See all settings"
+7. In the general tab, scroll down to "Signature" and click "Create new" (name it what you want, you can have multiple signatures).
+8. Click on the signature textbox and paste the previously copied signature `HTML`
+9. Scroll down and save changes that you just made
+10. Press the compose button and you will see your signature populated
+
+## Testing Your Signature
+
+1. After saving your signature, go back to it You will have to remove the white spaces that appear as `_` next to each social link, this is due to the formatting of the `HTML` code I did for readability.
+2. Save your signature again.
+3. Now try sending a test, send an email to another email address you own to ensure the signature is working how you expect it to.
+4. Enjoy your new professional signature!
 
 > [!NOTE]
-> There is a limit of 10,000 characters in Gmail Signature.
+> There is a limit of 10,000 characters in Gmail Signature. 
 
 > [!WARNING]
-> I've provided some images to use for your social links in the `images` folder, you must host these images on a hosting service (i.e. firebase or google drive) to allow everyone who views your signature to view these icons.
-> As mentioned above, the same goes with your avatar/profile picture and thumbnail -- which can be pointed to your GitHub profile image if you'd like.
+> I've provided some images to use for your social links in the `images` folder, you must also host these images on a hosting service along with your profile picture.
+> As mentioned above, the same goes with your avatar/profile picture and thumbnail -- which can be pointed to your GitHub profile (or any properly hosted image) if you'd like; I would suggest hosting them on your own though.
+
+> [!DANGER]
+> Please only use `.png` file types, other file types like `.svg`, `.jpg`, `.jpeg`, etc. will not display properly to the receiver of the email (even though it will display when sending).
+
 
 ## Resources
 
 - [Gmail](https://mail.google.com/)
 - [Gmail Signature](https://support.google.com/mail/answer/8395?co=GENIE.Platform%3DDesktop&hl=en)
 - [Gmail Signature Inspiration Repo](https://github.com/skarif2/gmail-signature)
-- [Imgur](https://imgur.com/)
+- [Google Drive](https://workspace.google.com/products/drive/)
+- [Dropbox](https://www.dropbox.com/)
 - [Firebase](https://firebase.google.com/)
 
 ## License
